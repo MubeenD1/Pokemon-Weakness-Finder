@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Name</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+    <div class="namePage">
+        {% for message in get_flashed_messages() %}
+          <p> {{message | safe}} </p>
+        {% endfor %}
+        <form>
+            <input type="button" value="Try again?" onclick="history.back()">
+        </form>
+    </div>
+
+</body>
+</html>

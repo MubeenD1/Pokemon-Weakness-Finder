@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+    <h1><br><br><br>Welcome to the Pokémon <br> weakness finder!</h1>
+    <br>
+    <form action="name" method="post">
+
+        {% for message in get_flashed_messages() %}
+            <p> {{message}} </p>
+        {% endfor %}
+        <br>
+        <input type="text" name="pokemon_name" placeholder="Enter a Pokémon Name!" >
+        <br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+
+</body>
+</html>

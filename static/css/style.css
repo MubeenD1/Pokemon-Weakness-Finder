@@ -1,0 +1,50 @@
+html, body{
+    padding-top: 0px;
+    text-align: center;
+    background: linear-gradient(45deg, hotpink 20%, aqua 80%);
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    height: 100%;
+    font-size: x-large;
+}
+
+.namePage{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: x-large;
+}
+
+input[type="text"] {
+    width: 600px; 
+    height: 25px; 
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    border-radius: 5px; 
+    border: 2px solid #fff; 
+    padding: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+input[type="submit"] {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(84, 74, 74);
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 10px;
+    border: 0px;
+}
+input[type="button"] {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(84, 74, 74);
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 10px;
+    border: 0px;
+}
